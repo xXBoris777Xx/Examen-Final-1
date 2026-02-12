@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+.contenedor {
+  width: 300px;
+  background: linear-gradient(blue, purple);
+  padding: 10px;
+}
+
+/* Cuadro ITALIA */
+.italia {
+  background: #4b6f3c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+/* Jugadores */
+.jugadores {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.jugador {
+  text-align: center;
+  font-size: 12px;
+}
+
+.foto {
+  width: 50px;
+  height: 50px;
+  background: brown;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.jugador p {
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+
+.jugador span {
+  font-size: 11px;
+  color: gray;
+}
+
+/* 2026 */
+.anio {
+  background: red;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px 0;
+}
+
+/* Campeón */
+.campeon {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.cuadro-blanco {
+  width: 200px;
+  height: 80px;
+  background: white;
+  border-radius: 25px;
+  margin: 15px auto;
+}
+
+/* Menú */
+.menu {
+  background: green;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 13px;
+}
